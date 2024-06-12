@@ -1,0 +1,19 @@
+.nums{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* color: hsla(0, 0%, 59%, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    cursor: pointer;
+    /* background-color: rgba(36, 44, 55, 0.603); */
+}
+/* .nums:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+} */
+.orangeCircleColor{
+    background-color: hsl(25, 97%, 53%);
+}

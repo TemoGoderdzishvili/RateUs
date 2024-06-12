@@ -1,0 +1,59 @@
+.box{
+    height: 500px;
+    width: 500px;
+    border-radius: 6%;
+    background-image: linear-gradient(hsl(212, 15%, 16%), hsl(212, 27%, 11%));
+    padding: 40px;
+    margin: 0px 25px 0px 25px;
+}
+.content{
+    height: 100%;
+}
+.icon{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: hsla(210, 19%, 11%, 0.603);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.txt p{
+    color: hsl(212, 6%, 41%);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.rateCircles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.btn{
+    height: 55px;
+    border-radius: 50px;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
